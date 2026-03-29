@@ -57,20 +57,3 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: python tourism_project/hosting/hosting.py
-```
-
----
-
-### Step 4 — Save it
-Scroll down → click **"Commit new file"**
-
----
-
-That's it! The folder structure in GitHub will look like this:
-```
-tourism-mlops-project/
-├── .github/
-│   └── workflows/
-│       └── pipeline.yml   ✅
-├── tourism_project/
-│   ├── ...
